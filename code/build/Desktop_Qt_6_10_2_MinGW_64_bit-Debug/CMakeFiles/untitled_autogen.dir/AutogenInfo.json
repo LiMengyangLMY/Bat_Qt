@@ -1,20 +1,20 @@
 {
 	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
-	"BUILD_DIR" : "D:/Data/DS/Project/Bat_Qt/untitled/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/untitled_autogen",
-	"CMAKE_BINARY_DIR" : "D:/Data/DS/Project/Bat_Qt/untitled/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "D:/Data/DS/Project/Bat_Qt/untitled/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "D:/Data/DS/Project/Bat_Qt/untitled",
+	"BUILD_DIR" : "D:/Data/DS/Project/Bat_Qt/code/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/untitled_autogen",
+	"CMAKE_BINARY_DIR" : "D:/Data/DS/Project/Bat_Qt/code/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/Data/DS/Project/Bat_Qt/code/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/Data/DS/Project/Bat_Qt/code",
 	"CMAKE_EXECUTABLE" : "C:/software/Qt/Tools/CMake_64/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"D:/Data/DS/Project/Bat_Qt/untitled/CMakeLists.txt",
-		"D:/Data/DS/Project/Bat_Qt/untitled/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/.qtcreator/cmake-helper/qtcreator-project.cmake",
-		"D:/Data/DS/Project/Bat_Qt/untitled/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/.qtcreator/cmake-helper/package-manager.cmake",
-		"D:/Data/DS/Project/Bat_Qt/untitled/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake",
-		"D:/Data/DS/Project/Bat_Qt/untitled/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake",
+		"D:/Data/DS/Project/Bat_Qt/code/CMakeLists.txt",
+		"D:/Data/DS/Project/Bat_Qt/code/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/.qtcreator/cmake-helper/qtcreator-project.cmake",
+		"D:/Data/DS/Project/Bat_Qt/code/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/.qtcreator/cmake-helper/package-manager.cmake",
+		"D:/Data/DS/Project/Bat_Qt/code/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake",
+		"D:/Data/DS/Project/Bat_Qt/code/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake",
 		"C:/software/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake",
 		"C:/software/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake",
-		"D:/Data/DS/Project/Bat_Qt/untitled/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
+		"D:/Data/DS/Project/Bat_Qt/code/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
 		"C:/software/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake",
 		"C:/software/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake",
 		"C:/software/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake",
@@ -27,7 +27,7 @@
 		"C:/software/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
 		"C:/software/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake",
 		"C:/software/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake",
-		"D:/Data/DS/Project/Bat_Qt/untitled/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake",
+		"D:/Data/DS/Project/Bat_Qt/code/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake",
 		"C:/software/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeRCInformation.cmake",
 		"C:/software/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake",
 		"C:/software/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
@@ -318,22 +318,22 @@
 		"C:/software/Qt/6.10.2/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake",
 		"C:/software/Qt/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "D:/Data/DS/Project/Bat_Qt/untitled",
+	"CMAKE_SOURCE_DIR" : "D:/Data/DS/Project/Bat_Qt/code",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "D:/Data/DS/Project/Bat_Qt/untitled/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/untitled_autogen/deps",
+	"DEP_FILE" : "D:/Data/DS/Project/Bat_Qt/code/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/untitled_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "untitled_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"D:/Data/DS/Project/Bat_Qt/untitled/mainwindow.h",
+			"D:/Data/DS/Project/Bat_Qt/code/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "D:/Data/DS/Project/Bat_Qt/untitled/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/untitled_autogen/include",
-	"MOC_COMPILATION_FILE" : "D:/Data/DS/Project/Bat_Qt/untitled/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/untitled_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "D:/Data/DS/Project/Bat_Qt/code/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/untitled_autogen/include",
+	"MOC_COMPILATION_FILE" : "D:/Data/DS/Project/Bat_Qt/code/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/untitled_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"MINGW_HAS_SECURE_API=1",
@@ -390,21 +390,21 @@
 		"-c",
 		"C:/software/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "D:/Data/DS/Project/Bat_Qt/untitled/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/untitled_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "D:/Data/DS/Project/Bat_Qt/code/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/untitled_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 14,
-	"PARSE_CACHE_FILE" : "D:/Data/DS/Project/Bat_Qt/untitled/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/untitled_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "D:/Data/DS/Project/Bat_Qt/code/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/untitled_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "C:/software/Qt/6.10.2/mingw_64/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "C:/software/Qt/6.10.2/mingw_64/bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 10,
-	"SETTINGS_FILE" : "D:/Data/DS/Project/Bat_Qt/untitled/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/untitled_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "D:/Data/DS/Project/Bat_Qt/code/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/untitled_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "D:/Data/DS/Project/Bat_Qt/untitled/main.cpp", "MU", null ],
-		[ "D:/Data/DS/Project/Bat_Qt/untitled/mainwindow.cpp", "MU", null ]
+		[ "D:/Data/DS/Project/Bat_Qt/code/main.cpp", "MU", null ],
+		[ "D:/Data/DS/Project/Bat_Qt/code/mainwindow.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

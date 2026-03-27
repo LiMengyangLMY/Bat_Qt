@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/untitled.dir/app.rc.obj"
   "CMakeFiles/untitled.dir/main.cpp.obj"
   "CMakeFiles/untitled.dir/main.cpp.obj.d"
   "CMakeFiles/untitled.dir/mainwindow.cpp.obj"
@@ -17,6 +18,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang CXX RC)
   include(CMakeFiles/untitled.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

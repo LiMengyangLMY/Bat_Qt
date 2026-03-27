@@ -52,10 +52,10 @@ RM = C:\software\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Data\DS\Project\Bat_Qt\untitled
+CMAKE_SOURCE_DIR = D:\Data\DS\Project\Bat_Qt\code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Data\DS\Project\Bat_Qt\untitled\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug
+CMAKE_BINARY_DIR = D:\Data\DS\Project\Bat_Qt\code\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug
 
 # Utility rule file for untitled_autogen.
 
@@ -70,9 +70,9 @@ CMakeFiles/untitled_autogen: untitled_autogen/timestamp
 untitled_autogen/timestamp: C:/software/Qt/6.10.2/mingw_64/bin/moc.exe
 untitled_autogen/timestamp: C:/software/Qt/6.10.2/mingw_64/bin/uic.exe
 untitled_autogen/timestamp: CMakeFiles/untitled_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\Data\DS\Project\Bat_Qt\untitled\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target untitled"
-	C:\software\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen D:/Data/DS/Project/Bat_Qt/untitled/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/untitled_autogen.dir/AutogenInfo.json Release
-	C:\software\Qt\Tools\CMake_64\bin\cmake.exe -E touch D:/Data/DS/Project/Bat_Qt/untitled/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/untitled_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\Data\DS\Project\Bat_Qt\code\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target untitled"
+	C:\software\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen D:/Data/DS/Project/Bat_Qt/code/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/untitled_autogen.dir/AutogenInfo.json Release
+	C:\software\Qt\Tools\CMake_64\bin\cmake.exe -E touch D:/Data/DS/Project/Bat_Qt/code/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/untitled_autogen/timestamp
 
 untitled_autogen: CMakeFiles/untitled_autogen
 untitled_autogen: untitled_autogen/timestamp
@@ -88,6 +88,6 @@ CMakeFiles/untitled_autogen.dir/clean:
 .PHONY : CMakeFiles/untitled_autogen.dir/clean
 
 CMakeFiles/untitled_autogen.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Data\DS\Project\Bat_Qt\untitled D:\Data\DS\Project\Bat_Qt\untitled D:\Data\DS\Project\Bat_Qt\untitled\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug D:\Data\DS\Project\Bat_Qt\untitled\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug D:\Data\DS\Project\Bat_Qt\untitled\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles\untitled_autogen.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Data\DS\Project\Bat_Qt\code D:\Data\DS\Project\Bat_Qt\code D:\Data\DS\Project\Bat_Qt\code\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug D:\Data\DS\Project\Bat_Qt\code\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug D:\Data\DS\Project\Bat_Qt\code\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles\untitled_autogen.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/untitled_autogen.dir/depend
 

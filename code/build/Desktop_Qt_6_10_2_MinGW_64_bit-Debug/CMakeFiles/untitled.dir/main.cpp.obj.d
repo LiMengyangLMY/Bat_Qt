@@ -1,6 +1,6 @@
 CMakeFiles/untitled.dir/main.cpp.obj: \
- D:\Data\DS\Project\Bat_Qt\untitled\main.cpp \
- D:\Data\DS\Project\Bat_Qt\untitled\mainwindow.h \
+ D:\Data\DS\Project\Bat_Qt\code\main.cpp \
+ D:\Data\DS\Project\Bat_Qt\code\mainwindow.h \
  C:/software/Qt/6.10.2/mingw_64/include/QtWidgets/QMainWindow \
  C:/software/Qt/6.10.2/mingw_64/include/QtWidgets/qmainwindow.h \
  C:/software/Qt/6.10.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \

@@ -16,13 +16,14 @@
 #include <QImage>
 #include <QFileInfo>
 #include <QDateTime>
+#include <QApplication>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    this->setWindowTitle("一键环境启动器 (高级版)");
+    this->setWindowTitle("【一键上工】快捷方式生成工具");
     this->resize(600, 500);
 
     QWidget *centralWidget = new QWidget(this);
@@ -104,10 +105,10 @@ void MainWindow::showHelpDialog() {
     msgBox.setWindowTitle("使用说明");
     msgBox.setTextFormat(Qt::RichText); // 开启富文本支持
     msgBox.setText(
-        "<h3>欢迎使用一键环境启动器</h3>"
+        "<h3>【一键上工】快捷方式生成工具</h3>"
         "<p><b>1. 添加路径：</b>输入网页链接或选择本地程序，点击添加。</p>"
         "<p><b>2. 批量删除：</b>在列表中按住 <b>Ctrl</b> 或 <b>Shift</b> 键可多选，然后点击删除。</p>"
-        "<p><b>3. 更换图标：</b>点击下方按钮，选择一个 <code>.ico</code> 格式的图片作为桌面快捷方式的封面。</p>"
+        "<p><b>3. 更换图标：</b>点击“更换快捷方式图标”按钮，选择一张图片作为快捷方式的封面。</p>"
         "<br>"
         "<p>📺 <a href='https://www.bilibili.com/video/BV1LawazBEDw/?spm_id_from=333.1387.upload.video_card.click'>点击这里观看视频教程</a></p>" // 换成你实际的视频链接
         );
@@ -170,8 +171,7 @@ void MainWindow::removeSelectedPaths() {
     }
 }
 
-
-// 功能实现：选择图标 (尊享版：支持自动转换，并提供居中裁剪与直接拉伸两种选项)
+// 功能实现：选择图标 (支持自动转换，并提供居中裁剪与直接拉伸两种选项)
 void MainWindow::selectIcon() {
     QString path = QFileDialog::getOpenFileName(this, "选择快捷方式图标或图片", "", "Images (*.ico *.png *.jpg *.jpeg *.bmp)");
     if (path.isEmpty()) return;
@@ -236,7 +236,7 @@ void MainWindow::selectIcon() {
     }
 }
 
-// 功能实现：生成脚本与快捷方式 (包含 VBS 黑科技)
+// 功能实现：生成脚本与快捷方式 ( VBS  & 文件夹隔离)
 void MainWindow::generateBatAndShortcut() {
     if (pathList->count() == 0) {
         QMessageBox::warning(this, "提示", "列表是空的，请先添加路径！");
@@ -247,7 +247,16 @@ void MainWindow::generateBatAndShortcut() {
     QString baseName = fileNameInput->text().trimmed();
     if (baseName.isEmpty()) baseName = "一键启动"; // 默认名称
 
-    QString batFilePath = QDir::currentPath() + "/" + baseName + ".bat";
+    // ================= 【新增：隔离生成的脚本】 =================
+    QString appPath = QCoreApplication::applicationDirPath();
+    QString outputDirPath = appPath + "/OutputScripts";
+    QDir dir;
+    if (!dir.exists(outputDirPath)) {
+        dir.mkpath(outputDirPath); // 如果不存在，自动创建专门的文件夹
+    }
+    // 将 bat 文件的完整路径指向新的文件夹
+    QString batFilePath = outputDirPath + "/" + baseName + ".bat";
+    // ==========================================================
 
     // 2. 写入 Bat 文件
     QFile file(batFilePath);
@@ -290,26 +299,26 @@ void MainWindow::generateBatAndShortcut() {
     if (!customIconPath.isEmpty()) {
         QString winIconPath = customIconPath; winIconPath.replace("/", "\\");
 
-        // 创建临时的 vbs 脚本文件
-        QString vbsPath = QDir::currentPath() + "/temp_create_shortcut.vbs";
+        // 创建临时的 vbs 脚本文件 (放在程序根目录，用完即删)
+        QString vbsPath = appPath + "/temp_create_shortcut.vbs";
         QFile vbsFile(vbsPath);
         if (vbsFile.open(QIODevice::WriteOnly | QIODevice::Text)) {
             QTextStream vbsOut(&vbsFile);
 
-            // ================= 【核心修复点：解决中文路径导致 VBS 失败】 =================
             // 强制让 VBS 脚本使用 Windows 系统的本地编码 (ANSI/GBK)
 #if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
             vbsOut.setCodec(QTextCodec::codecForLocale());
 #else
             vbsOut.setEncoding(QStringConverter::System);
 #endif
-            // =========================================================================
 
             vbsOut << "Set oWS = WScript.CreateObject(\"WScript.Shell\")\n";
             vbsOut << "sLinkFile = \"" << winShortcutPath << "\"\n";
             vbsOut << "Set oLink = oWS.CreateShortcut(sLinkFile)\n";
-            vbsOut << "oLink.TargetPath = \"" << winBatPath << "\"\n";
-            vbsOut << "oLink.IconLocation = \"" << winIconPath << "\"\n"; // 设置图标
+            vbsOut << "oLink.TargetPath = \"" << winBatPath << "\"\n";  // 这里会自动指向 OutputScripts 里的 bat
+            // 设置起始位置为 Bat 文件所在的目录，避免某些程序运行时找不到相对路径文件
+            vbsOut << "oLink.WorkingDirectory = \"" << outputDirPath.replace("/", "\\") << "\"\n";
+            vbsOut << "oLink.IconLocation = \"" << winIconPath << "\"\n";
             vbsOut << "oLink.Save\n";
             vbsFile.close();
 
@@ -318,7 +327,6 @@ void MainWindow::generateBatAndShortcut() {
             // 删掉临时脚本，做到无痕
             QFile::remove(vbsPath);
 
-            // 检查快捷方式是否真的生成成功了
             success = QFile::exists(shortcutPath);
         }
     } else {
@@ -335,3 +343,4 @@ void MainWindow::generateBatAndShortcut() {
                              QString("Bat脚本生成成功，但快捷方式创建失败。\n\n排查建议：\n1. 请检查是否有杀毒软件拦截\n2. 请确认路径是否有特殊字符\n\n脚本位置: %1").arg(batFilePath));
     }
 }
+

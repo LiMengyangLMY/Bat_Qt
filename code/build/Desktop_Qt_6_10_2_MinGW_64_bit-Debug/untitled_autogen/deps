@@ -582,16 +582,16 @@ untitled_autogen/timestamp: \
 	C:/software/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
 	C:/software/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
 	C:/software/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-	D:/Data/DS/Project/Bat_Qt/untitled/CMakeLists.txt \
-	D:/Data/DS/Project/Bat_Qt/untitled/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake \
-	D:/Data/DS/Project/Bat_Qt/untitled/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/.qtcreator/cmake-helper/package-manager.cmake \
-	D:/Data/DS/Project/Bat_Qt/untitled/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/.qtcreator/cmake-helper/qtcreator-project.cmake \
-	D:/Data/DS/Project/Bat_Qt/untitled/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
-	D:/Data/DS/Project/Bat_Qt/untitled/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake \
-	D:/Data/DS/Project/Bat_Qt/untitled/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
-	D:/Data/DS/Project/Bat_Qt/untitled/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/untitled_autogen/moc_predefs.h \
-	D:/Data/DS/Project/Bat_Qt/untitled/main.cpp \
-	D:/Data/DS/Project/Bat_Qt/untitled/mainwindow.cpp \
-	D:/Data/DS/Project/Bat_Qt/untitled/mainwindow.h \
-	D:/Data/DS/Project/Bat_Qt/untitled/mainwindow.ui \
+	D:/Data/DS/Project/Bat_Qt/code/CMakeLists.txt \
+	D:/Data/DS/Project/Bat_Qt/code/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake \
+	D:/Data/DS/Project/Bat_Qt/code/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/.qtcreator/cmake-helper/package-manager.cmake \
+	D:/Data/DS/Project/Bat_Qt/code/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/.qtcreator/cmake-helper/qtcreator-project.cmake \
+	D:/Data/DS/Project/Bat_Qt/code/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
+	D:/Data/DS/Project/Bat_Qt/code/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake \
+	D:/Data/DS/Project/Bat_Qt/code/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
+	D:/Data/DS/Project/Bat_Qt/code/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/untitled_autogen/moc_predefs.h \
+	D:/Data/DS/Project/Bat_Qt/code/main.cpp \
+	D:/Data/DS/Project/Bat_Qt/code/mainwindow.cpp \
+	D:/Data/DS/Project/Bat_Qt/code/mainwindow.h \
+	D:/Data/DS/Project/Bat_Qt/code/mainwindow.ui \
 	C:/software/Qt/Tools/CMake_64/bin/cmake.exe

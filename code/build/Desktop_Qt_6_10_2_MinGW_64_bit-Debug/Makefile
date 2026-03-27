@@ -56,10 +56,10 @@ RM = C:\software\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Data\DS\Project\Bat_Qt\untitled
+CMAKE_SOURCE_DIR = D:\Data\DS\Project\Bat_Qt\code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Data\DS\Project\Bat_Qt\untitled\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug
+CMAKE_BINARY_DIR = D:\Data\DS\Project\Bat_Qt\code\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,9 +131,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\DS\Project\Bat_Qt\untitled\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles D:\Data\DS\Project\Bat_Qt\untitled\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\DS\Project\Bat_Qt\code\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles D:\Data\DS\Project\Bat_Qt\code\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\DS\Project\Bat_Qt\untitled\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Data\DS\Project\Bat_Qt\code\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -198,6 +198,14 @@ untitled_autogen: cmake_check_build_system
 untitled_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled_autogen.dir\build.make CMakeFiles/untitled_autogen.dir/build
 .PHONY : untitled_autogen/fast
+
+app.obj: app.rc.obj
+.PHONY : app.obj
+
+# target to build an object file
+app.rc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/app.rc.obj
+.PHONY : app.rc.obj
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -286,6 +294,7 @@ help:
 	@echo ... untitled_autogen
 	@echo ... untitled_autogen_timestamp_deps
 	@echo ... untitled
+	@echo ... app.obj
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

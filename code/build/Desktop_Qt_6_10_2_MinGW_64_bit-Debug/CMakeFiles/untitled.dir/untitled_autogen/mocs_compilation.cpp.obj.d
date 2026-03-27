@@ -1,7 +1,7 @@
 CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.obj: \
- D:\Data\DS\Project\Bat_Qt\untitled\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\untitled_autogen\mocs_compilation.cpp \
- D:\Data\DS\Project\Bat_Qt\untitled\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\untitled_autogen\EWIEGA46WW/moc_mainwindow.cpp \
- D:/Data/DS/Project/Bat_Qt/untitled/mainwindow.h \
+ D:\Data\DS\Project\Bat_Qt\code\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\untitled_autogen\mocs_compilation.cpp \
+ D:\Data\DS\Project\Bat_Qt\code\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\untitled_autogen\EWIEGA46WW/moc_mainwindow.cpp \
+ D:/Data/DS/Project/Bat_Qt/code/mainwindow.h \
  C:/software/Qt/6.10.2/mingw_64/include/QtWidgets/QMainWindow \
  C:/software/Qt/6.10.2/mingw_64/include/QtWidgets/qmainwindow.h \
  C:/software/Qt/6.10.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \

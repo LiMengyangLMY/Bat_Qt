@@ -1,0 +1,78 @@
+卷 Data 的文件夹 PATH 列表
+卷序列号为 B4EA-892F
+D:.
+|   AutoBat_1.0 - 快捷方式.lnk
+|   AutoBat_1.0.exe
+|   D3Dcompiler_47.dll
+|   icon_1774500471832.ico
+|   libgcc_s_seh-1.dll
+|   libstdc++-6.dll
+|   libwinpthread-1.dll
+|   opengl32sw.dll
+|   Qt6Core.dll
+|   Qt6Gui.dll
+|   Qt6Network.dll
+|   Qt6Svg.dll
+|   Qt6Widgets.dll
+|   tree.txt
+|   一键VibeCoding.bat
+|   
++---generic
+|       qtuiotouchplugin.dll
+|       
++---iconengines
+|       qsvgicon.dll
+|       
++---imageformats
+|       qgif.dll
+|       qico.dll
+|       qjpeg.dll
+|       qsvg.dll
+|       
++---networkinformation
+|       qnetworklistmanager.dll
+|       
++---platforms
+|       qwindows.dll
+|       
++---styles
+|       qmodernwindowsstyle.dll
+|       
++---tls
+|       qcertonlybackend.dll
+|       qschannelbackend.dll
+|       
+\---translations
+        qt_ar.qm
+        qt_bg.qm
+        qt_ca.qm
+        qt_cs.qm
+        qt_da.qm
+        qt_de.qm
+        qt_en.qm
+        qt_es.qm
+        qt_fa.qm
+        qt_fi.qm
+        qt_fr.qm
+        qt_gd.qm
+        qt_he.qm
+        qt_hr.qm
+        qt_hu.qm
+        qt_it.qm
+        qt_ja.qm
+        qt_ka.qm
+        qt_ko.qm
+        qt_lg.qm
+        qt_lv.qm
+        qt_nl.qm
+        qt_nn.qm
+        qt_pl.qm
+        qt_pt_BR.qm
+        qt_ru.qm
+        qt_sk.qm
+        qt_sv.qm
+        qt_tr.qm
+        qt_uk.qm
+        qt_zh_CN.qm
+        qt_zh_TW.qm
+        

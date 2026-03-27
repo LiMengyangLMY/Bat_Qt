@@ -1,6 +1,6 @@
 CMakeFiles/untitled.dir/mainwindow.cpp.obj: \
- D:\Data\DS\Project\Bat_Qt\untitled\mainwindow.cpp \
- D:\Data\DS\Project\Bat_Qt\untitled\mainwindow.h \
+ D:\Data\DS\Project\Bat_Qt\code\mainwindow.cpp \
+ D:\Data\DS\Project\Bat_Qt\code\mainwindow.h \
  C:/software/Qt/6.10.2/mingw_64/include/QtWidgets/QMainWindow \
  C:/software/Qt/6.10.2/mingw_64/include/QtWidgets/qmainwindow.h \
  C:/software/Qt/6.10.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -412,7 +412,7 @@ CMakeFiles/untitled.dir/mainwindow.cpp.obj: \
  C:/software/Qt/6.10.2/mingw_64/include/QtWidgets/qstyle.h \
  C:/software/Qt/6.10.2/mingw_64/include/QtWidgets/qtabbar.h \
  C:/software/Qt/6.10.2/mingw_64/include/QtWidgets/qrubberband.h \
- D:/Data/DS/Project/Bat_Qt/untitled/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/untitled_autogen/include/ui_mainwindow.h \
+ D:/Data/DS/Project/Bat_Qt/code/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/untitled_autogen/include/ui_mainwindow.h \
  C:/software/Qt/6.10.2/mingw_64/include/QtCore/QVariant \
  C:/software/Qt/6.10.2/mingw_64/include/QtCore/qvariant.h \
  C:/software/Qt/6.10.2/mingw_64/include/QtWidgets/QApplication \
@@ -516,4 +516,5 @@ CMakeFiles/untitled.dir/mainwindow.cpp.obj: \
  C:/software/Qt/6.10.2/mingw_64/include/QtCore/QFileInfo \
  C:/software/Qt/6.10.2/mingw_64/include/QtCore/qfileinfo.h \
  C:/software/Qt/6.10.2/mingw_64/include/QtCore/QDateTime \
- C:/software/Qt/6.10.2/mingw_64/include/QtCore/qdatetime.h
+ C:/software/Qt/6.10.2/mingw_64/include/QtCore/qdatetime.h \
+ C:/software/Qt/6.10.2/mingw_64/include/QtWidgets/QApplication

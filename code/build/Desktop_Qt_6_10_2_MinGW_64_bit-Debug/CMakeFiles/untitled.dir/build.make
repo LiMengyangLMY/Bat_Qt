@@ -52,10 +52,10 @@ RM = C:\software\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Data\DS\Project\Bat_Qt\untitled
+CMAKE_SOURCE_DIR = D:\Data\DS\Project\Bat_Qt\code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Data\DS\Project\Bat_Qt\untitled\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug
+CMAKE_BINARY_DIR = D:\Data\DS\Project\Bat_Qt\code\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/untitled.dir/depend.make
@@ -71,60 +71,66 @@ include CMakeFiles/untitled.dir/flags.make
 untitled_autogen/timestamp: C:/software/Qt/6.10.2/mingw_64/bin/moc.exe
 untitled_autogen/timestamp: C:/software/Qt/6.10.2/mingw_64/bin/uic.exe
 untitled_autogen/timestamp: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\Data\DS\Project\Bat_Qt\untitled\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target untitled"
-	C:\software\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen D:/Data/DS/Project/Bat_Qt/untitled/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/untitled_autogen.dir/AutogenInfo.json Release
-	C:\software\Qt\Tools\CMake_64\bin\cmake.exe -E touch D:/Data/DS/Project/Bat_Qt/untitled/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/untitled_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\Data\DS\Project\Bat_Qt\code\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target untitled"
+	C:\software\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen D:/Data/DS/Project/Bat_Qt/code/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/CMakeFiles/untitled_autogen.dir/AutogenInfo.json Release
+	C:\software\Qt\Tools\CMake_64\bin\cmake.exe -E touch D:/Data/DS/Project/Bat_Qt/code/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/untitled_autogen/timestamp
 
 CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.obj: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.obj: CMakeFiles/untitled.dir/includes_CXX.rsp
 CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.obj: untitled_autogen/mocs_compilation.cpp
 CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.obj: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Data\DS\Project\Bat_Qt\untitled\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.obj"
-	C:\software\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\untitled.dir\untitled_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\untitled.dir\untitled_autogen\mocs_compilation.cpp.obj -c D:\Data\DS\Project\Bat_Qt\untitled\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\untitled_autogen\mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Data\DS\Project\Bat_Qt\code\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.obj"
+	C:\software\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\untitled.dir\untitled_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\untitled.dir\untitled_autogen\mocs_compilation.cpp.obj -c D:\Data\DS\Project\Bat_Qt\code\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\untitled_autogen\mocs_compilation.cpp
 
 CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.i"
-	C:\software\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Data\DS\Project\Bat_Qt\untitled\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\untitled_autogen\mocs_compilation.cpp > CMakeFiles\untitled.dir\untitled_autogen\mocs_compilation.cpp.i
+	C:\software\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Data\DS\Project\Bat_Qt\code\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\untitled_autogen\mocs_compilation.cpp > CMakeFiles\untitled.dir\untitled_autogen\mocs_compilation.cpp.i
 
 CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.s"
-	C:\software\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Data\DS\Project\Bat_Qt\untitled\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\untitled_autogen\mocs_compilation.cpp -o CMakeFiles\untitled.dir\untitled_autogen\mocs_compilation.cpp.s
+	C:\software\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Data\DS\Project\Bat_Qt\code\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\untitled_autogen\mocs_compilation.cpp -o CMakeFiles\untitled.dir\untitled_autogen\mocs_compilation.cpp.s
 
 CMakeFiles/untitled.dir/main.cpp.obj: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/main.cpp.obj: CMakeFiles/untitled.dir/includes_CXX.rsp
-CMakeFiles/untitled.dir/main.cpp.obj: D:/Data/DS/Project/Bat_Qt/untitled/main.cpp
+CMakeFiles/untitled.dir/main.cpp.obj: D:/Data/DS/Project/Bat_Qt/code/main.cpp
 CMakeFiles/untitled.dir/main.cpp.obj: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Data\DS\Project\Bat_Qt\untitled\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled.dir/main.cpp.obj"
-	C:\software\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/main.cpp.obj -MF CMakeFiles\untitled.dir\main.cpp.obj.d -o CMakeFiles\untitled.dir\main.cpp.obj -c D:\Data\DS\Project\Bat_Qt\untitled\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Data\DS\Project\Bat_Qt\code\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled.dir/main.cpp.obj"
+	C:\software\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/main.cpp.obj -MF CMakeFiles\untitled.dir\main.cpp.obj.d -o CMakeFiles\untitled.dir\main.cpp.obj -c D:\Data\DS\Project\Bat_Qt\code\main.cpp
 
 CMakeFiles/untitled.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled.dir/main.cpp.i"
-	C:\software\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Data\DS\Project\Bat_Qt\untitled\main.cpp > CMakeFiles\untitled.dir\main.cpp.i
+	C:\software\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Data\DS\Project\Bat_Qt\code\main.cpp > CMakeFiles\untitled.dir\main.cpp.i
 
 CMakeFiles/untitled.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/main.cpp.s"
-	C:\software\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Data\DS\Project\Bat_Qt\untitled\main.cpp -o CMakeFiles\untitled.dir\main.cpp.s
+	C:\software\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Data\DS\Project\Bat_Qt\code\main.cpp -o CMakeFiles\untitled.dir\main.cpp.s
 
 CMakeFiles/untitled.dir/mainwindow.cpp.obj: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/mainwindow.cpp.obj: CMakeFiles/untitled.dir/includes_CXX.rsp
-CMakeFiles/untitled.dir/mainwindow.cpp.obj: D:/Data/DS/Project/Bat_Qt/untitled/mainwindow.cpp
+CMakeFiles/untitled.dir/mainwindow.cpp.obj: D:/Data/DS/Project/Bat_Qt/code/mainwindow.cpp
 CMakeFiles/untitled.dir/mainwindow.cpp.obj: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Data\DS\Project\Bat_Qt\untitled\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled.dir/mainwindow.cpp.obj"
-	C:\software\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/mainwindow.cpp.obj -MF CMakeFiles\untitled.dir\mainwindow.cpp.obj.d -o CMakeFiles\untitled.dir\mainwindow.cpp.obj -c D:\Data\DS\Project\Bat_Qt\untitled\mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Data\DS\Project\Bat_Qt\code\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled.dir/mainwindow.cpp.obj"
+	C:\software\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/mainwindow.cpp.obj -MF CMakeFiles\untitled.dir\mainwindow.cpp.obj.d -o CMakeFiles\untitled.dir\mainwindow.cpp.obj -c D:\Data\DS\Project\Bat_Qt\code\mainwindow.cpp
 
 CMakeFiles/untitled.dir/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled.dir/mainwindow.cpp.i"
-	C:\software\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Data\DS\Project\Bat_Qt\untitled\mainwindow.cpp > CMakeFiles\untitled.dir\mainwindow.cpp.i
+	C:\software\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Data\DS\Project\Bat_Qt\code\mainwindow.cpp > CMakeFiles\untitled.dir\mainwindow.cpp.i
 
 CMakeFiles/untitled.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/mainwindow.cpp.s"
-	C:\software\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Data\DS\Project\Bat_Qt\untitled\mainwindow.cpp -o CMakeFiles\untitled.dir\mainwindow.cpp.s
+	C:\software\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Data\DS\Project\Bat_Qt\code\mainwindow.cpp -o CMakeFiles\untitled.dir\mainwindow.cpp.s
+
+CMakeFiles/untitled.dir/app.rc.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/app.rc.obj: D:/Data/DS/Project/Bat_Qt/code/app.rc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Data\DS\Project\Bat_Qt\code\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building RC object CMakeFiles/untitled.dir/app.rc.obj"
+	C:\software\Qt\Tools\mingw1310_64\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) D:\Data\DS\Project\Bat_Qt\code\app.rc CMakeFiles\untitled.dir\app.rc.obj
 
 # Object files for target untitled
 untitled_OBJECTS = \
 "CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.obj" \
 "CMakeFiles/untitled.dir/main.cpp.obj" \
-"CMakeFiles/untitled.dir/mainwindow.cpp.obj"
+"CMakeFiles/untitled.dir/mainwindow.cpp.obj" \
+"CMakeFiles/untitled.dir/app.rc.obj"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
@@ -132,6 +138,7 @@ untitled_EXTERNAL_OBJECTS =
 untitled.exe: CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.obj
 untitled.exe: CMakeFiles/untitled.dir/main.cpp.obj
 untitled.exe: CMakeFiles/untitled.dir/mainwindow.cpp.obj
+untitled.exe: CMakeFiles/untitled.dir/app.rc.obj
 untitled.exe: CMakeFiles/untitled.dir/build.make
 untitled.exe: C:/software/Qt/6.10.2/mingw_64/lib/libQt6Widgets.a
 untitled.exe: C:/software/Qt/6.10.2/mingw_64/lib/libQt6Gui.a
@@ -140,7 +147,7 @@ untitled.exe: C:/software/Qt/6.10.2/mingw_64/lib/libQt6EntryPoint.a
 untitled.exe: CMakeFiles/untitled.dir/linkLibs.rsp
 untitled.exe: CMakeFiles/untitled.dir/objects1.rsp
 untitled.exe: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Data\DS\Project\Bat_Qt\untitled\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable untitled.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Data\DS\Project\Bat_Qt\code\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable untitled.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\untitled.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -152,6 +159,6 @@ CMakeFiles/untitled.dir/clean:
 .PHONY : CMakeFiles/untitled.dir/clean
 
 CMakeFiles/untitled.dir/depend: untitled_autogen/timestamp
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Data\DS\Project\Bat_Qt\untitled D:\Data\DS\Project\Bat_Qt\untitled D:\Data\DS\Project\Bat_Qt\untitled\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug D:\Data\DS\Project\Bat_Qt\untitled\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug D:\Data\DS\Project\Bat_Qt\untitled\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles\untitled.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Data\DS\Project\Bat_Qt\code D:\Data\DS\Project\Bat_Qt\code D:\Data\DS\Project\Bat_Qt\code\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug D:\Data\DS\Project\Bat_Qt\code\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug D:\Data\DS\Project\Bat_Qt\code\build\Desktop_Qt_6_10_2_MinGW_64_bit-Debug\CMakeFiles\untitled.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/untitled.dir/depend
 

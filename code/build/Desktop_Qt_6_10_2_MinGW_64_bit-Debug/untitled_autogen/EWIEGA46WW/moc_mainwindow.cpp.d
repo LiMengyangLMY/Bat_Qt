@@ -1,5 +1,5 @@
-D:/Data/DS/Project/Bat_Qt/untitled/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/untitled_autogen/EWIEGA46WW/moc_mainwindow.cpp: D:/Data/DS/Project/Bat_Qt/untitled/mainwindow.h \
-  D:/Data/DS/Project/Bat_Qt/untitled/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/untitled_autogen/moc_predefs.h \
+D:/Data/DS/Project/Bat_Qt/code/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/untitled_autogen/EWIEGA46WW/moc_mainwindow.cpp: D:/Data/DS/Project/Bat_Qt/code/mainwindow.h \
+  D:/Data/DS/Project/Bat_Qt/code/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/untitled_autogen/moc_predefs.h \
   C:/software/Qt/6.10.2/mingw_64/include/QtCore/q17memory.h \
   C:/software/Qt/6.10.2/mingw_64/include/QtCore/q20functional.h \
   C:/software/Qt/6.10.2/mingw_64/include/QtCore/q20iterator.h \
